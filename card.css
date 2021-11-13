@@ -1,0 +1,136 @@
+*, *::before, *::after{
+
+  font-family: 'Oswald', sans-serif;
+
+
+}
+body{
+ background-image: url(https://tse1.mm.bing.net/th?id=OIP.ZapeaMBc_KP6MZGWn_KnvwHaEK&pid=Api&P=0&w=314&h=177);
+  background-repeat: none;
+  background-size: cover;
+
+}
+
+.card_body{
+    width: 300px;
+
+     background-color: rgb(207, 32, 32);
+     color: white;
+   
+    padding: 15px;
+    border: none;
+     -webkit-box-shadow: 14px 9px 5px 0px rgba(0,0,0,0.77);
+     -moz-box-shadow: 14px 9px 5px 0px rgba(0,0,0,0.77);
+     box-shadow: 14px 9px 5px 0px rgba(0,0,0,0.77);
+     border-radius: 1rm;
+
+
+}
+/* .card_body{
+
+     font-size: .9rm;
+     margin-bottom: 1rem;
+} */
+.card_footer{
+    margin-top: 1rem;
+
+
+}
+.btn{
+   
+
+
+    background-color: dodgerblue;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    padding: .5em .8em;
+    border-radius: .30em;
+    cursor: pointer;
+}
+.btn:hover,.btn:focus{
+
+      background-color: hsl(219, 60%, 39%);
+}
+.btn.btn_outline{
+
+   background: none;
+   /* border: 2px solid dodgerblue; */
+    color: rgb(21, 113, 206);
+
+
+}
+.btn.btn_outline:hover,.btn.btn_outline:hover{
+    border: 2px solid dodgerblue;
+     background-color: white
+     ;
+
+}
+.card_grid{
+     margin-left: 15px;
+     
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+     
+    row-gap: 25px;
+    
+    /* column-gap: 5px; */
+    /* this is use not spending extra space*/
+    align-items: flex-start;
+    margin-top: 50px;
+}
+h1{
+
+     font-size: 1rem;
+}
+
+
+.nav{
+    height: 100px;
+   
+ display: flex;
+ 
+ justify-content: space-between;
+ background: fixed;
+}
+.nav>.heading{
+ width: 300px;
+ margin-left: 200px;
+ font-size: 30px;
+ font-weight: 100%;
+ /* background-color: antiquewhite; */
+
+}
+    
+
+/* .heading{
+    padding: 20px;
+max-width: 500px;
+background-color: aqua;
+}
+ */
+
+.nav>.list-iteam{
+  list-style-type: none;
+display: flex;
+ flex-direction: row;
+ 
+ /* justify-content: space-around; */
+ 
+
+
+}
+
+.list-iteam>li{
+    font-weight: 600;
+    
+
+ padding: 15px;
+}
+.list-iteam>li:hover,.list-iteam>li:focus{
+ cursor: pointer;
+ border: 1px solid dodgerblue;
+
+
+
+}
